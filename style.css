@@ -1,0 +1,119 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.container {
+    border: 2px solid #18233a;
+    margin: 5px;
+    padding: 10px 40px 40px;
+    border-radius: 5px;
+}
+
+.container label {
+    font-size: 18px;
+}
+
+.container input {
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.container select {
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.container button {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    background-color: #18233a;
+    font-size: 17px;
+    text-shadow: 0px 0px 1px #000;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    float: right;
+    color: blue;
+}
+
+/* Styles for read.php */
+
+.table-box {
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.5);
+}
+
+table{
+    width: 100%;
+}
+
+table, th,td{
+    border: 1px solid #005277;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+table img{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid darkblue;
+}
+
+th{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #00bcd4;
+    color: #fff;
+}
+
+table tr{
+    text-align: left;
+}
+
+
+a{
+    text-decoration: none;
+    transition: .4s;
+}
+
+a.update:hover{
+    color: green;
+}
+
+a.delete:hover{
+    color: tomato;
+}
+
+.add-more a{
+    float: right;
+    color: green;
+    margin: 2%;
+    margin-right: 4%;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.add-more a:hover{
+    color: blue;
+}
